@@ -22,3 +22,7 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
         Softwares usados en el tutorial: 
         *   codepen.io : Pagina de prototipado HTML, CSS y JavaScript.
+
+    Video 03 - Probando HTML, CSS y JavaScript Por Primera Vez:
+
+        * Variables en JavaScript.
