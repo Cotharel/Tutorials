@@ -26,3 +26,10 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
     Video 03 - Probando HTML, CSS y JavaScript Por Primera Vez:
 
         * Variables en JavaScript.
+
+    Video 04 - ¿Que es HTLML y como funciona?:
+
+        HTML (Lenguaje de Marcado de Hipertexto): Lenguaje utilizado para comunicarse con el navegador mediate el uso de etiquetas(tags).
+
+        Etiquetas(tags): Se utilizan para estructurar y delimitar un documento Web. Su forma de presentacion es jerárquica.
+        
