@@ -32,4 +32,16 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
         HTML (Lenguaje de Marcado de Hipertexto): Lenguaje utilizado para comunicarse con el navegador mediate el uso de etiquetas(tags).
 
         Etiquetas(tags): Se utilizan para estructurar y delimitar un documento Web. Su forma de presentacion es jerárquica.
+    
+    Video 05 - Elementos HTML que debes entender:
+
+        <p></p> Parrafo
+        <h*></h*> Titular
+        <ol></ol> Lista ordenada
+            <li></li> Item de Lista
+        <ul></ul> Lista desordenada
+            <li></li> Item de Lista
+        <span></span> Delimitador en linea (inline)
+        <br> Salto de linea
         
+
