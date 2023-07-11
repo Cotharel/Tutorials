@@ -44,7 +44,7 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
         *   <span></span> Delimitador en linea (inline)
         *   <br> Salto de linea
 
-    Video 06 - Como funcionan los Hiperenlaces HTML:
+    Video 06 - ¿Como funcionan los Hiperenlaces HTML?:
 
         *   <a href="www.LaPagina.com">El enlace</a> Hiperenlaces: Partes de la pagina Web que conectan con recursos externos o internos.
         
@@ -59,4 +59,31 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
         *   La forma de uso de cada uno depende del contexto en el que se encuentre uno. Si quiero dirigirme a un enlace nuevo utilizare un Absoluto, pero si quiero moverme dentro de un mismo dominio utilizare enlaces Relativos. Un dato extra es que para poder moverte de afuera para dentro usamos "/" con los nombres de los directorios en los que entramos. Un ejemplo es "Carpeta_Uno/Carpeta_Dos/Carpeta_Tres/archivo.html". Pero si queremos de la "Carpeta_Tres" volver a la "Carpeta_Uno" por otro archivo tendremos que usar "../" tantas veces como carpeta tengamos en medio. En este ejemplo seria "../../../archivo.html".
 
-    
+    Video 07 - ¿Como poner imagenes en HTML?:
+
+        *   <img/> : Con el atributo "src" se indica donde se encuentra la imagen. El atributo "alt" es una descripcion que complementa a la imagen. Esta descripcion es leida por el navegador cuando una persona con problemas visuales tiene activada la accesibilidad.
+
+        Softwares mostrados en el tutorial:
+        *   lipsum.com : Pagina de generacion de parrafos para pruebas Web. Existe una libreria o extensión que te permite crearlos con atajos directamente mientras programas.
+        *   placekitten.com : Pagina de generacion de imagenes para pruebas Web. El enlace que te proporsiona la pagina tiene dos numeros al final indicando con los mismos el ancho y el alto. Estos valores los podemos modificar y eso cambiara el tamaño y dibujode la imagen.
+
+        *   Al usar imagenes o videos la resolucion tiene que ser lo mas aproximado a lo que vas a usar para asi evitar perder calidad en el caso de que el recurso sea muy chico y amplies o de perder rendimiento en el caso de que el recurso sea muy grande y lo achiques.
+
+        *   Al modificar el alto o el ancho unicamente el navegador calculara automaticamente el otro atributo permitiendo agrandar o achicar la imagen sin deformarla.
+
+        *   <figure> y <figcaption> : La etiqueta "figure" representa semanticamente a una imagen y "figcaption" es el subtitulo de la imagen.
+
+    Video 08 - ¿Qué es la estructura semantica de HTML5?:
+
+        *   Semántica: Las etiquetas HTML son las encargadas de describir el contenido, por lo tanto algunas añaden un significado a tu codigo. Este significado es importante tanto para usuarios como para rastreadores.
+
+        * Etiquetas con semantica:
+            *   <section></section> : Agrupa contenido relacionado por su naturaleza o temática.
+            *   <header></header> : Representa semanticamente a la cabecera de una estructura y agrupa elementos relacionados con esa semantica. Este contenido generalmente se encuentra en la parte superior de la pagina pero puede usarse en cualquier sitio que asi lo necesite y mas de un vez.
+            *   <footer></footer> : Representa semanticamente al pie de pagina de una estructura y agrupa elementos relacionados con esa semantica. Donde, cuando y cuantos es igual al "header".
+            *   <article></article> : Agrupo un contenido que es autonomo y por lo tanto al colocarlo en otro contexto o pagina el mismo sigue manteniendo su semantica evitando cualquier mala interpretacion. Por ejemplo un articulo cientifico con titulo, parrafos, imagenes y contactos aunque cambie de una pagina seria a una con estetica de fiesta podra perder seriedad pero el contenido sera semanticamente un articulo cientifico. Si el contenido necesita relacionarse con otro elemento esto es una señal clara que no estamos frente a un "article".
+            *   <aside></aside> : Agrupa contenido relacionado con la pagina o en el caso de estar en un "article" agrupa contenido relacionado con el mismo. Como lo dice su descripcion su contenido no puede ser autonomo y su ubicacion es alrrededor del contenido con el cual esta relacionado.
+            *   <nav></nav> : Representa semanticamente a una seccion navegable, esta etiqueta contiene elementos navegables, osea que cualquier elemento que permite la navegacion a otra pagina o dentro de la misma es posible que pertenezca a "nav".
+            *   <main></main> : Main tiene un peso semantico absoluto siendo solo contenido por "body" y existiendo uno solo por pagina.
+            *   <div></div> : Es un comodin semanticamente hablando y puede agrupar contenido relacionado.
+
