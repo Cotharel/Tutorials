@@ -90,4 +90,18 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
     Video 09 - Llegó el momento de practicar HTML:
 
         *   Lorem viene cargado ya en VSCode por lo tanto al invocarlo obtendremos un parrafo aleatorio el cual servira de prueba.
+    
+    Video 10 - Qué es CSS: primeros pasos
+
+        *   CSS son los estilos que seran aplicados a los elementos de tu archivo HTML.
+            *   Selector: Es donde se colara el escenario a modificar. Este escenario puede ser un elemento o varios del archivo HTML
+            *   Propiedad: Son las caracteristicas modificables de los elementos las cuales podemos invorcar.
+            *   Valor: Es el valor que se asigna a la propiedad.
         
+        *   Estilos de modificacion de stilo:
+            *   Estilos Inline: Se modifica el elementos HTML con el atributo "style".
+            *   Estilos internos: Se modifica el documento HTML con la etiqueta <style type="text/css"></style> dentro de <head></head>.
+            *   Estilos externos: Se importa un archivo css a través de una etiqueta <link>. al ser importado el archivo css este puede ser usado por mas de un archivo HTML. El atributo "rel" indica el tipo de archivo que importara "link" en el HTML y "href" indica donde estara el mismo, el enlace como en "a" puede ser absoluto o relativo. Este estilo es el que mas se recomienda por que evita el repetimiento de codigo y por lo tanto hace mas barata la modificacion.
+
+        Softwares mostrados en el tutorial:
+        *   replit.com : Pagina para crear proyectos de programacion completos sin necesidad de descargar softwares especificos.
