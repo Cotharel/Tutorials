@@ -5,7 +5,7 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
     Video 01 - Curso de Desarrollo Web Profesional Desde Cero:
 
-    Conceptos vistos o mencionados en los tutoriales: HTML, CSS, JavaScript, VSCode, GIT, GitHub, Coeficiente de Especificidad en CSS, Cascada CSS, Bootstrap, Workflow, NPM, Front-End, Back-End, FullStack, Vue.js, Tailwind CSS, Aspecto Psicológico, Sindrome del Impostor, Aspecto Físico, Marketing, Empleabilidad, Apectos del Empresario, Actitud, Cliente/Servidor, DNS, IP, Servidor, Request, Response, Ajax, Wordpress, Base de Datos, JSON, Protocolo HTTP y HTTPS.
+    Conceptos vistos o mencionados en los tutoriales: HTML, CSS, JavaScript, VSCode, GIT, GitHub, Coeficiente de Especificidad en CSS, Cascada CSS, Bootstrap, Workflow, NPM, Front-End, Back-End, FullStack, Vue.js, Tailwind CSS, Aspecto Psicológico, Sindrome del Impostor, Aspecto Físico, Marketing, Empleabilidad, Apectos del Empresario, Actitud, Cliente/Servidor, DNS, IP, Servidor, Request, Response, Ajax, Wordpress, Base de Datos, JSON, Protocolo HTTP y HTTPS, Mockup.
 
     Video 02 - ¿Qué significa Desarrollo Web Frontend?:
         
@@ -87,3 +87,7 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
             *   <main></main> : Main tiene un peso semantico absoluto siendo solo contenido por "body" y existiendo uno solo por pagina.
             *   <div></div> : Es un comodin semanticamente hablando y puede agrupar contenido relacionado.
 
+    Video 09 - Llegó el momento de practicar HTML:
+
+        *   Lorem viene cargado ya en VSCode por lo tanto al invocarlo obtendremos un parrafo aleatorio el cual servira de prueba.
+        
