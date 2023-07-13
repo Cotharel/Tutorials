@@ -1,0 +1,28 @@
+p {
+    font-size: large;
+    color: blue;
+}
+
+.pPersonalizados {
+    color: blueviolet;
+    border: 1px solid black;
+}
+
+.pPersonalizadosDos {
+    border: 3px solid red;
+}
+
+.pPersonalizadosCuatro {
+    border: 3px double gray;
+    background-color: aqua;
+}
+
+.pPersonalizadosTres {
+    border: 3px double blue;
+}
+
+#pUnico {
+    color: chocolate;
+    font-size: xx-large;
+    border: 10px double goldenrod;
+}

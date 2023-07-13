@@ -91,7 +91,7 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
         *   Lorem viene cargado ya en VSCode por lo tanto al invocarlo obtendremos un parrafo aleatorio el cual servira de prueba.
     
-    Video 10 - Qué es CSS: primeros pasos
+    Video 10 - Qué es CSS: primeros pasos:
 
         *   CSS son los estilos que seran aplicados a los elementos de tu archivo HTML.
             *   Selector: Es donde se colara el escenario a modificar. Este escenario puede ser un elemento o varios del archivo HTML
@@ -105,3 +105,19 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
         Softwares mostrados en el tutorial:
         *   replit.com : Pagina para crear proyectos de programacion completos sin necesidad de descargar softwares especificos.
+
+    Video 11 - Tutorial Selectores CSS:
+
+        *   Escenarios: Podemos usar el selector de tipo como un estilo general y el de clase como un estilo especifico. Luego el selector de id quedaria como una opcion especifica de un elemento. Lo anterior lo podemos ver como herramientas de pintura, siendo los selectores de tipo los rodillos para el fondo, los de clase las brochas para distintas partes y por ultimo los de ID como un pincel que usaras una vez en alguna parte.
+            
+            *   Selectores de tipo: seleccionar por el tipo (nombre) de elemento (etiqueta).
+                p { color: red; }
+            *   Selectores de clase: seleccionar por el valor del atributo "class" que puede tener uno o mas elementos. Una frase que me parece correcta es decir que "el elemento pertenece a la clase ..." con esto dejamos claro que CSS define una clase con ciertas propiedades modificadas que luego elementos HTML adoptaran.
+                .valorClass { color: red;}
+                <p class="valorClass"></p> : El atributo class puede tener mas de una valor separando los mismos con un espacio.
+            *   Selectores de ID: El mecanismo es el mismo que con los selectores de clase con tres diferencias. Primero se usa "#" en vez de ".", la segunda diferencia es que el atributo que usamos es "id" en vez de "class" y la tercera es que este selector es mas especifico ya que el valor del atributo "id" no puede repetirse (por Semantica) por lo tanto siempre estaras modificando un solo elemento.
+                <p id="valorID"></p>
+                #valorID { color: red;}
+
+            *   Prioridad de selectores: Los selectores pueden llegar a sobrescribir los cambios de otro por ende existe una jerarquia. La jerarquia es Selectores de tipo como los de menor nivel, Selectores de clase como el nivel medio y los Selectores de ID como los de mayor nivel. En el caso de multiples valores en el atributo class estos no tendran ningun efecto pero el orden dentro del archivo CSS dictara cual remplazara las propiedades que se repitan siendo la ultima clase definida la mas importante.
+    
