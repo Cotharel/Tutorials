@@ -121,3 +121,6 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
             *   Prioridad de selectores: Los selectores pueden llegar a sobrescribir los cambios de otro por ende existe una jerarquia. La jerarquia es Selectores de tipo como los de menor nivel, Selectores de clase como el nivel medio y los Selectores de ID como los de mayor nivel. En el caso de multiples valores en el atributo class estos no tendran ningun efecto pero el orden dentro del archivo CSS dictara cual remplazara las propiedades que se repitan siendo la ultima clase definida la mas importante.
     
+    Video 12 - Cómo practicar HTML y CSS:
+
+        *   Selectores descendientes y pseudoclase: En esta practica nos damos cuentas que para entrar a un elemento que esta dentro de otro usamos el selector de tipo del padre y luego dejamos un espacio y utilizamos el selector que querramos. En el caso de las pseudoclases colocamos al lado del selector ":" y elegimos el tipo que queremos, estas pseudoclases son muchas y lo mejor es buscar por internet la que necesitemos segun su efecto. 
