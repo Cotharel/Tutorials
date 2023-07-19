@@ -123,4 +123,31 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
     
     Video 12 - Cómo practicar HTML y CSS:
 
-        *   Selectores descendientes y pseudoclase: En esta practica nos damos cuentas que para entrar a un elemento que esta dentro de otro usamos el selector de tipo del padre y luego dejamos un espacio y utilizamos el selector que querramos. En el caso de las pseudoclases colocamos al lado del selector ":" y elegimos el tipo que queremos, estas pseudoclases son muchas y lo mejor es buscar por internet la que necesitemos segun su efecto. 
+        *   Selectores descendientes y pseudoclase: En esta practica nos damos cuentas que para entrar a un elemento que esta dentro de otro usamos el selector de tipo del padre y luego dejamos un espacio y utilizamos el selector que querramos. En el caso de las pseudoclases colocamos al lado del selector ":" y elegimos el tipo que queremos, estas pseudoclases son muchas y lo mejor es buscar por internet la que necesitemos segun su efecto.
+
+    Video 13 - Qué son los Selectores Descendientes CSS:
+
+        *   Selectores Descendientes: Son los que permiten seleccionar elementos dependiendo su relacion con otros. Esto no deja fuera ninguno de los selectores anteriores. Osea podemos decender por un selector de tipo, de clase y de id.
+            p .dentroDelP #dentroDeClase{ color: red; }
+        
+        *   Selector de tipo y clase: En este caso cuando queremos ser mas presiso con el tipo del elemento con clase ponemos primero el selector de tipo seguido por el de clase.
+            p.claseName{ color: red; }
+
+        *   Selector de tipo e id: Lo mismo que el de tipo y clase pero remplazando "." por "#".
+            p#idName{ color: red; }
+
+        *   Selector multiple de clases: Cuando agrego mas de una clase a un tipo lo que estoy diciendo es que ese selector tiene que tener las dos clases osea se lee con el conector AND.
+            p.primerClass.segundaClass{ color: red; } 
+
+        *   Selector multiple de clases y id: Cuando agrego una clase y un id a un tipo lo que estoy diciendo es que ese selector tiene que tener la clase y el id. El orden entre id y clse/es es indistinto pero si colocamos dos cambios, uno al derecho y el otro invertido, se tomara como prioritario el de mas abajo (el mas reciente) en el codigo.
+            p.primerClass#primerId{ color: red; } 
+
+        *   Tip de Selector de clase: Cuando se utiliza el selector de clase se hace un llamado general a todo elemento de tipo con dicho nombre de clase. Esto si es en un Selector Descendiente se respeta la descendencia pero en el momento que se llega al selector de clase este genera su efecto general dentro de su rama. Cuando el selector de tipo es acompañado por el de clase se genera una especificacion haciendo que el efecto del selector de clase solo se active si el mismo esta dentro del elemento de tipo que especifique el selector.
+
+        .primerClass {color: red;}
+        p.primerClass {color:red;}
+
+        div nav .primerClass {color: red;} -> los elementos con el nombre de clase pueden ser de cualquier tipo
+        div nav p.primerClass {color:red;} -> los elementos con el nombre de clase solo son los de tipo p
+
+    
