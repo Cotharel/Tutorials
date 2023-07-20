@@ -1,0 +1,19 @@
+h1::first-letter {
+    color: red;
+}
+
+p::first-line {
+    font-size: 30px;
+}
+
+h1::after {
+    content: "<3";
+    margin: 30px;
+    background-color: aqua;
+}
+
+p::before {
+    content: ":D";
+    margin: 30px;
+    background-color: aqua;
+}

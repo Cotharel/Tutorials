@@ -179,4 +179,39 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
             *   Tips: Si al lado del nombre de la etiqueta colocas * y luego un numero esta se repetira esa cantidad de veces.
                 a*3 == <a></a><a></a><a></a>
 
-            
+    Video 16 - Tutorial Pseudo Elementos CSS:
+
+        *   Pseudo Elementos: Definen partes especificas de un elemento HTML. Lo ejemplos son acotados y si se quiere ver mas contenido, ejemplos y formas de uso lo mejor es buscar la informacion en internet.
+
+            *   Pseudo Elementos Tipograficos: Estos apuntan a partes del contenido del elemento. Por ejemplo en un "h1" quiero la primer letra de color rojo u otro ejemplo quiero la primer linea de un parrafo en 30px.
+
+                h1::first-letter {
+                    color: red;
+                }
+
+                p::first-line {
+                    font-size: 30px;
+                }   -> En este caso cabe resaltar que el efecto sera dinamico y si al achicar la pantalla cambia el parrafo este mantendra la "primer linea" en tamaño de 30px.
+
+            *   Pseudo Elementos de Contenido: Esto apunta a un elemento y agrega contenido y estilos antes o despues del mismo.
+
+                h1::after {
+                    content: "<3";
+                }
+
+                p::before {
+                    content: ":D";
+                }
+
+        *   Tips de atajo: li*6{Elemento $} == 
+
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+            <li>Elemento 6</li>
+
+        *   Sitios para tener en cuenta: https://es.stackoverflow.com/, https://developer.mozilla.org/es/, https://www.w3schools.com/.
+
+        
