@@ -214,4 +214,12 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
         *   Sitios para tener en cuenta: https://es.stackoverflow.com/, https://developer.mozilla.org/es/, https://www.w3schools.com/.
 
-        
+    Video 17 - Maquetar FreeCodeCamp: Ejercicio HTML + CSS:
+
+        *   Tips: A querer crear una etiqueta si al lado del nombre ponemos "." y otro nombre crearemos una etiqueta con una clase del nombre que le pusimos despues del punto. Ahora si usamos "#" lo que conseguiremos es crear una etiqueta con un id asignado.
+
+            p.unParrafo == <p class="unParrafo"></p>
+            p#unParrafo == <p id="unParrafo"></p>
+            p#unParrafo.unParrafo == <p id="unParrafo" class="unParrafo"></p>
+
+        *   Sitios para tener en cuenta: https://www.iconfinder.com/.

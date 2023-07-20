@@ -1,0 +1,55 @@
+main{
+    width: 45%;
+    margin: auto;
+}
+
+section {    
+    padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
+
+section h1 {
+    font-size: xx-large;
+}
+
+section p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section nav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+section nav a img {
+    width: 100%;
+}
+
+nav#started {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav#started button{
+    width: 100%;
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 64%, rgba(255,255,255,1) 100%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid rgb(253,187,45);
+}
+
+figure {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+figure img {
+    width: 100%;
+}
