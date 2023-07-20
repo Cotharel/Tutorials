@@ -150,4 +150,33 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
         div nav .primerClass {color: red;} -> los elementos con el nombre de clase pueden ser de cualquier tipo
         div nav p.primerClass {color:red;} -> los elementos con el nombre de clase solo son los de tipo p
 
-    
+    Video 14 - Ejercicios Selectores CSS Descendientes:
+
+        *   Los ejercicios mostrados en este tutorial son simples ejemplos abordados en el anterior video.
+
+    Video 15 - El Tutorial Definitivo sobre Pseudo Clases CSS:
+
+        *   Selectores en base a condisiones especiales (pseudo clases): Podemos seleccionar elementos por su estado, posicion y relacion. Para lograr esto se usan las pseudo clases, ya que representan una pseudo eleccion.
+
+            *   Pseudo Clase de Estado: Busca un estado especial en un escenario CSS, en base al estado. Por ejemplo si el mouse esta sobre un elemento del tipo "a" el mismo se subraya. Las pseudo clases como sus versiones completas pueden estar asociadas a un elemento o de manera general si no se les adjudica.
+
+                a:hover {
+                    text-decoration: underline;
+                }
+
+            *   Pseudo Clase de Posicion: Busca un estado especial en un escenario CSS, en base a la posicion. Por ejemplo en un articulo el primer parrafo tiene letra de color azul.
+
+                article p:first-child{
+                    color: blue;
+                }
+
+            *   Pseudo Clase de Relacion: Busca un estado especial en un escenario CSS, en base a la relacion. Por ejemplo si el elemento "a" no pertenece a la clase "destacado" entonces el color de su letra se vuelve azul.
+
+                a:not(.destacado) {
+                    color: blue;
+                }
+
+            *   Tips: Si al lado del nombre de la etiqueta colocas * y luego un numero esta se repetira esa cantidad de veces.
+                a*3 == <a></a><a></a><a></a>
+
+            

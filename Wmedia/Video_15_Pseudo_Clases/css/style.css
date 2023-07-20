@@ -1,0 +1,15 @@
+a:hover {
+    text-decoration:transparent;
+}
+
+article p:first-child{
+    color: red;
+}
+
+a:not(.destacado) {
+    color: red;
+}
+
+main :hover{
+    font-size: 32px;
+}
