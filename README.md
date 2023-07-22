@@ -263,4 +263,16 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
     Video 21 - Tutorial em vs rem CSS:
 
-        
+        *   em y rem: Unidades relativas al tamaño tipografico (font-relative). Estas unidades se usan en tipografia aunque se pueden aplicar en otras cosas. Estan unidades son relativas en base al valor de font-size.
+
+        *   em: El valor se calcula multiplicando en base al valor de font-size. Recordar que font-size es heredable. Si utilizo em en un contenedor con hijos, si estos tambien ultilizan em estos se veran afectados por el padre aunque este mismo tambien utilize em. em se computa en pixeles para poder volverse un valor heredable y asi computar nuevamente si se lo necesita.
+
+        *   Tips: Las propiedades pueden ser o no heredables. Las mismas si son heredebles y se las modifica los hijos del contenedor modificado tomaran como base estas propiedades con su valor modificado
+
+        *   rem: A diferencia de em, rem toma como valor base el font-size de HTML unicamente. Por lo demas el efecto es multiplicador. rem lo puedo usar en HTML ya que como se dijo antes este no posee antecesor asi que utilizara el valor de base y lo multiplicara sin problemas.
+
+        *   Consejos em vs rem:
+            *   Ante la duda usar rem que no tiene efecto compuesto.
+            *   Si depende de un elemento antecesor que no es HTML usar em.
+            *   Si depende solo del font-size de HTML usa rem.
+            

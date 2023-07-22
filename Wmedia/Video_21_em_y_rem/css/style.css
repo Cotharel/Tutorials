@@ -1,0 +1,15 @@
+p {
+    font-size: 2em;
+}
+
+div {
+    font-size: 2em;
+}
+
+div p {
+    font-size: 2em;
+}
+
+div p.prueba {
+    font-size: 2rem;
+}
