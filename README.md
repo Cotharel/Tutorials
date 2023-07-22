@@ -223,3 +223,44 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
             p#unParrafo.unParrafo == <p id="unParrafo" class="unParrafo"></p>
 
         *   Sitios para tener en cuenta: https://www.iconfinder.com/.
+
+    Video 18 - Píxeles CSS: Qué Son y Cómo Se Usan:
+
+        *   Al buscar valores de CSS lo mejor es buscarlos por "Tipos de Datos CSS" o "Unidades CSS" de esta forma puedo encontrar mas rapido que valores existen y usar el que necesite.
+
+        *   Sitio para tener en cuenta: https://screensiz.es/.
+
+        *   Tips: Al agregar padding a un contenedor este se sumara al width del mismo por ende al querer algo simetrico esto podria ser un problema.
+
+    Video 19 - Tutorial Porcentajes CSS:
+
+        *    Cuando especificamos un porcentaje como data type en un elemento, este se calcula con base en la medida del elemento ancestro. Por ende el ancestro tiene que tener medidas establecidas. Otra forma de darse cuenta es siempre preguntarse al usar un valor relativo ¿en base a quien?.
+
+        *   Tipos de unidades:
+            *   Absolutas: Que su valor no varia y son iguales para cualquier dispositivo.
+            *   Relativas: Que su valor varia y no son iguales para cualquier dispositivo.
+
+        *   Algo interesante que resaltar es que html no tiene ancestro definido del cual dependa la unidad relativa por ende al poner un porcentaje este lo establecera con el balor base de la pantalla.
+
+        *   Un convención de momento: Al comenzar un documento CSS colocaremos lo siguiente.
+
+            html, body{
+                height: 100%;
+            }
+
+    Video 20 - Carrera Desarrollo Web Frontend: Q&A:
+
+        *   En este caso es un directo para preguntar, si alguna pregunta es interesante o util se colocara la información en este apartado.
+
+        *   Algunas propiedades son generales y a las mismas se les puede dar varios valores. En el caso que no necesite de la propiedad general lo mejor es usar la propiedad canonica. Un ejemplo de margin arriba: En este caso al usar la propiedad general nos damos cuenta que la misma sobreescribe varios valores mas en vez de tocar solo el que queremos.
+
+            Propiedad general: margin: 5px 0px 0px 0px
+            Propiedad canonica: margin-top: 5px
+
+        *   Podcast: https://podcasters.spotify.com/pod/show/maestriafm.
+
+        *   Pagina principal: https://wmedia.es/.
+
+    Video 21 - Tutorial em vs rem CSS:
+
+        
