@@ -275,4 +275,22 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
             *   Ante la duda usar rem que no tiene efecto compuesto.
             *   Si depende de un elemento antecesor que no es HTML usar em.
             *   Si depende solo del font-size de HTML usa rem.
-            
+    
+    Video 22 - Color en CSS: Aprende a Usarlo Como un PRO!:
+
+        *   keywodrs: Palabras claves que representan colores.
+        *   RGB: RGB se vasa en unidades que representan rojo, verde y azul en ese orden. Estas unidades pueden ir de 0 a 255. rgb() es lo que usamos y como se ve a simple vista es una Funcion que acepta tres valores. Cabe aclarar que 0 es la AUSENCIA del color (osea negro si los tres estan en 0) y 255 la saturacion del mismo (osea a su color o en el caso de los tres el color blanco).
+            background-color: rgb(255, 255, 255);
+        *   RGBA: Es lo mismo que RGB con el agregado de un parametro mas que indica la transparencia (alpha).
+            background-color: rgba(0, 255, 0, .5) -> 50% transparente.
+        *   HSLA: Matiz, Saturación, Iluminación y Transparencia (hue, saturation, lightness, alpha).
+            *   hue: Su unidad son los numeros que expresan grados que van desde 0 a 360 y cubre todo el espectro de color.
+            *   saturation: toma porcentaje de 0% a 100% para sacar o agregar toda la carga de color. Osea 0% blanco y negro y 100% el color puro sin rebajas.
+            *   lightness: toma porcentaje de 0% a 100% para oscurecer o esclarecer. 0% seria negro y 100% seria blanco.
+            *   alpha: representa la transparencia de 0 a 1 tomando los decimales intermedios.
+
+        *   Tips: Dentro de las keywodrs existe la palabra clave transparent que hace referencia a que el elemento es transparente lo cual no se podria con rgb. Con la propiedad opacity podemos como en RGBA tocar la transparencia pero a diferencia de RGBA, Opacity afecta a todo el elemento y sus hijos. RGBA en cambio como es una unidad y no un propiedad lo puedo usar en distintas partes del elemento para obtener su efecto.
+
+        *   Paginas utiles: https://hslpicker.com/.
+
+    
