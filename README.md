@@ -293,4 +293,40 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
         *   Paginas utiles: https://hslpicker.com/.
 
-    
+    Video 23 - El ÚNICO Tutorial de Color CSS Hexadecimal Que Necesitas:
+
+        *   Al escribir valores en hexadecimal tenemos que poner primero "#" y ademas las letras que entren dentro del valor no son sensibles a mayusculas.
+
+        *   Para saber el valor hexadecimal se tiene que sumar (D * 16) + (U * 1) -> ciendo "D" decena y "U" unidad. "H" de simbolo hexadecimal. Viendo esto podemos decir que D es mas importante que U y por tanto es el que indica mejor cuanto color estamos usando
+              R  V  A  ALPHA -> en el caso de la transparencia sera de 0% a 255% 
+            # 14 C7 EB FF
+            H DU DU DU DU
+
+        *   Al decir que algo esta en "base" de un numero estamos aclarando que para que de la unidad pueda pasar a la decena necesito dicha base.
+
+            0 1 2 3 4 5 6 7 8 9 -> 10 "BASE 10" ya que del 0 al 9 existen 10 numeros.
+            0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 -> 10 "Base 16" ya que del 0 al 15 existen 16 numeros.
+            Si seguimos el Base 16 este seguiria: 10 11 12 13 14 15 16 17 18 19 110 111 112 113 114 115 -> 20
+
+    Video 24 - Entiende ESTO para DOMINAR CSS: La Especificidad:
+
+        *   Cascada: 
+
+        *   Especificidad: Es la prioridad que tienen los selectores sobre otros.
+            1) Selector inline o en la etiqueta (atributo style).
+            2) Selector id.
+            3) Selector de clase y pseudo-clase.
+            4) Selector de tipo y pseudo-elementos.
+
+            Para calcular la especificidad lo pensaremos de esta manera:
+
+                0,   0,   0,   0
+        
+            El primer numero dicta si existe un Selector inline, el segundo si existe un selector id, el tercero si existe un selector de clase o pseudo-clase y por ultimo si tiene un selector de tipo o pseudo-elemento. Todo esto afectando al mismo elemento. Una vez tenemos la cantidad de seletores utilizados para llamar al elemento los contamos y sacamos que selector simple o compuesto tiene mas especificidad. Es importante aclarar que al contar aunque tenga 10 selectores de clase estos no seran mayores a 1 selector id.
+
+            Si al lado del valor de la propiedad coloco !important eso hace que la propiedad tenga la mayor especificidad posible.
+
+            Al hacer una cuenta se toman todos los selectores usados sin importar si estos son partes de otros.
+                p.seleccion #identificador div {} 0,1,1,2
+
+        *   Tips: Al colocar el mouse por encima de los selectores en VSC podremos saber su nivel de especificidad.
