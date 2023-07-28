@@ -310,7 +310,7 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
     Video 24 - Entiende ESTO para DOMINAR CSS: La Especificidad:
 
-        *   Cascada: 
+        *   Cascada: Ver en el video siguiente.
 
         *   Especificidad: Es la prioridad que tienen los selectores sobre otros.
             1) Selector inline o en la etiqueta (atributo style).
@@ -330,3 +330,49 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
                 p.seleccion #identificador div {} 0,1,1,2
 
         *   Tips: Al colocar el mouse por encima de los selectores en VSC podremos saber su nivel de especificidad.
+
+    Video 25 - Si no entiendes la CASCADA, no entiendes CSS:
+
+        *   Cascada: Cada declaracion CSS tiene una serie de atributos que le dan prioridad sobre otras declaraciones. Ademas esos atributos tienen su nivel de prioridad y cada nivel inferior se toma en cuenta si el anterior no da un resultado unico:
+            1)  Origen e Importancia: El atributo origen se divide en tres con sus correspondientes prioridades.
+                a.  Author (Los estilos que escribimos en archivos CSS)
+                b.  User (Los estilos que se aplican al User Agent desde la configuracion de usuario del navegador)
+                c.  User Agent (Los estilos que aplicael navegador por defecto)
+                El atributo importancia se aplica al colocar al lado del valor de una propiedad la palabre "!important" lo cual le otorga a la propiedad y su valor una prioridad absoluta.
+                
+            2)  Coeficiente de Especificidad: Vista en el video anterior.
+            
+            3)  Orden de aparición: La ultima declaracion CSS es la de mas prioridad, y en el caso de varios archivos css el mas reciente cargado en el archivo html va a ser el de mas prioridad.
+
+            <head>
+                <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="css/style2.css"> <--- Este es el de mas prioridad por que esta ultimo.
+                <title> Un documento con dos archivos CSS </title>
+            </head>
+
+    Video 26 - Tutorial Herencia CSS:
+
+        *   Herencia CSS:
+            *   La herencia CSS dicta que si una etiqueta HTML contiene otras en su interior, estas heredaran las propiedades y tambien pasaran dicha propiedad a sus hijos. Estas propiedades heredables (existen propiedades no heredables) podran ser reescritas al modificarlas en los hijos crando una nueva rama heredable si el hijo es contenedor de otras etiquetas.
+            *   Algunas propiedades no heredables pueden ser forzadas para asi ser heredadas. Esto se logra diciendole al hijo que tome la informacion de su padre.
+                <section><p>Hola mundo</p></section>
+                
+                section {
+                    border: 3px solid purple; <-- esta propiedad no es heredable
+                }
+
+                p {
+                    border: inherit; <-- Asi se logra que el parrafo herede de su padre la section la propiedad border.
+                }
+
+                section > * { <-- Este selector se lee como cualquier elemento que sea hijo directo de section.
+                    border: inherit;
+                }
+
+                En el ultimo ejemplo al decir hijo directo no nos referimos a los nietos, etc. Solo a los hijos.
+
+            *   En ultima instancia si no se quiere heredar algo se le dice al hijo que el valor de la propiedad heredada tiene que ser "none". Se tiene que prestar atencion a esto por que si el prioridad del hijo no es mayor a la del padre esto no tendra ningun efecto ya que primero se establecera el "none" y luego el valor del padre remplazandolo.
+
+    Video 27 - Ejercicio HTML y CSS:
+
+        *   Revizar los dos codigos y ver bien que practicas son mejores segun mi criterio.
