@@ -376,3 +376,21 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
     Video 27 - Ejercicio HTML y CSS:
 
         *   Revizar los dos codigos y ver bien que practicas son mejores segun mi criterio.
+
+    Video 28 - Tu Primer Programa JavaScript:
+
+        *   Sitios para tener en cuenta:
+            *   https://nodejs.org/es
+            *   https://www.electronjs.org/es/
+            *   https://reactnative.dev/
+            *   https://threejs.org/
+
+        *   Con JavaScript aplicamos la logica y la interaccion en nuestros proyectos web.
+
+        *   "windows" puede obviarse a la hora de usar sus mensajes.
+
+        *   A tener en cuenta: Cada accion es recomendable que tenga su funcion y no intentar tener mas de una accion por funcion. Para cambiar el texto de un elemento usamos textContent pero cabe aclarar que innerText genera el mismo efecto <<por lo cual tengo que estudiar para que sirve cada uno>>. Por otro lado tener en cuenta que al agregar un evento a la escucha addEventListener la funcion que le paso por parametro no puede tener los () por lo tanto dicha funcion no puede tener parametros.
+
+    Video 29 - Como Usar JavaScript en HTML:
+
+        
