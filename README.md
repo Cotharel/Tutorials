@@ -393,4 +393,8 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
     Video 29 - Como Usar JavaScript en HTML:
 
+        *   Tips: Al usar "" y necesitar que lo de adentro tambien este entre "" se usa comillas simples ''. Para asegurar que el html esta cargado y no poner la etiqueta script al final de body se puede dejar la etiqueta en el head y poner como atributo "defer" que espera hasta que el html este cargado antes de activar el script (este atributo no funciona inline).
+
+    Video 30 - La Consola JavaScript es Tu Mejor Amiga:
+
         
