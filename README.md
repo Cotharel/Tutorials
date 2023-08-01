@@ -397,4 +397,10 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
     Video 30 - La Consola JavaScript es Tu Mejor Amiga:
 
+        *   Al encontrar un error JavaScript para el proceso y todo lo que este despues del error no se ejecuta.
+
+        *   La funcion prompt permite dar la opcion al usuario de ingresar texto, esta funcion tiene dos parametros, el primero es el mensaje que recibira el usuario junto al cuadro de texto y el segundo que es opcional es el contenido que tendra ya escrito por defecto el cuadro de texto.
+
+    Video 31 - Que son las Variables JavaScript:
+
         
