@@ -403,4 +403,8 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
 
     Video 31 - Que son las Variables JavaScript:
 
-        
+        *   Nada que destacar.
+
+    Video 32 - JavaScript If Else:
+
+        *   
