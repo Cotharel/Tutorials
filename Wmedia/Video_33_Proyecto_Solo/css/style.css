@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main {
+    width: 60%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+main article {
+    transition: width 1s;
+    padding: 3%;
+}
+
+main #sedans {
+    background-color: orange;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+}
+
+main #suvs {
+    background-color: cadetblue;
+}
+
+main #luxury {
+    background-color: green;
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+}
+
+article img {
+    width: 50px;
+}
+
+article .circle {
+    opacity: .3;
+}
+
+article .coche {
+    position: relative;
+    right: 35px;
+}
+
+article h3 {
+    height: 5%;
+    font-family: Impact;
+    font-weight: lighter;
+}
+
+article .content {
+    height: 65%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article .more {
+    display: inline;
+    background-color: white;
+    padding: 5px 20px;
+    font-size: 0.8rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sedans .more {
+    color: orange;
+}
+
+#suvs .more {
+    color: cadetblue;
+}
+
+#luxury .more {
+    color: green;
+}
+
+
+

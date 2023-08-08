@@ -410,4 +410,7 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
         *   Se toma como mala practica usar mas de dos condicionales, por lo tanto con un if y un else if debria bastar. Si no es asi se tendra que revizar el codigo.
 
         *   Si se utilizan if simples (osea un if y luego un else) se puede usar la siguiente forma: (condición) ? (Si es True) : (Si es False). Los parentesis no son obligatorios. Esto no se puede hacer si encadenas mas de un if con else if.
-        
+    
+    Video 33 - Proyecto Javascript para Principiantes:
+
+        *   Realizo el proyecto mencionado en el video usando las herramientas dadas.
