@@ -83,17 +83,22 @@ article .more {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#sedans .more {
+article .more a {
+    text-decoration: none;
+}
+
+#sedans .more a{
     color: orange;
 }
 
-#suvs .more {
+#suvs .more a{
     color: cadetblue;
 }
 
-#luxury .more {
+#luxury .more a{
     color: green;
 }
+
 
 
 

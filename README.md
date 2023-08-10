@@ -414,3 +414,15 @@ Tutoriales del youtuber: https://www.youtube.com/@juanwmedia
     Video 33 - Proyecto Javascript para Principiantes:
 
         *   Realizo el proyecto mencionado en el video usando las herramientas dadas.
+
+        *   Al realizar el proyecto con el tutorial me doy cuenta que en el mismo se utiliza como estado activo un selector de css que luego se lo ponemos a un elemento html y una vez guardada su posicion en js la cambiamos borrando el class name del elemento y agragandoselo a otro.
+
+        *   Recordar usar los max y min para dar un ancho o alto minimo y maximo y en esta leecion se uso:
+
+            * {
+                box-sizing: border-box;
+            }
+
+            overflow: hidden;
+
+            Estas dos cosas me son desconocidas por ende tengo que estudiarlas y resolver, junto con min y max, el problema que me proboca que al achicar el navegados el mismo deforme la pagina haciendo que el contenido de algunos contenedores salga de los mismos.
